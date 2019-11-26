@@ -1,0 +1,31 @@
+framework: auto-detect
+
+source https://www.nuget.org/api/v2
+nuget FluentAssertions
+nuget FluentArgs
+nuget Microsoft.CodeAnalysis.FxCopAnalyzers
+nuget Microsoft.CodeQuality.Analyzers
+nuget StyleCop.Analyzers >= 1.1.0-beta
+nuget Microsoft.Azure.ServiceBus
+nuget Microsoft.Extensions.Configuration
+nuget Microsoft.Extensions.Configuration.Json
+nuget Microsoft.Extensions.Configuration.CommandLine
+nuget Microsoft.Extensions.DependencyInjection
+nuget Microsoft.Extensions.Hosting
+nuget Microsoft.Extensions.Logging
+nuget Newtonsoft.Json
+nuget System.Collections.Immutable
+nuget System.Threading.Tasks.Dataflow
+nuget Xunit.Core
+nuget Xunit.Runner.VisualStudio
+nuget Xbehave
+nuget FakeItEasy
+nuget Serilog
+nuget Serilog.Exceptions
+nuget Serilog.Sinks.ColoredConsole
+nuget Serilog.Extensions.Logging
+nuget Serilog.Extensions.Hosting
+nuget Serilog.Settings.Configuration
+nuget Selenium.WebDriver
+nuget Polly
+nuget Serilog.Formatting.Compact

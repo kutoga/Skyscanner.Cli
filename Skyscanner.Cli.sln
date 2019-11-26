@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscanner.Model", "Skyscanner.Model\Skyscanner.Model.csproj", "{1F7AF312-5048-42A6-9054-683EEA28C713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscanner.Domain", "Skyscanner.Domain\Skyscanner.Domain.csproj", "{01EADB9B-A969-4B3B-9A3A-6260486DF88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscanner.Infrastructure", "Skyscanner.Infrastructure\Skyscanner.Infrastructure.csproj", "{DB89E31A-4656-420B-B31E-FB5CE7E568C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscanner.Cli", "Skyscanner.Cli\Skyscanner.Cli.csproj", "{203C0487-B8B3-4BDB-9997-6F74697BF6BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D5F59C0B-647F-4B10-9468-C0826E52CA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscanner.Test.Quality", "Skyscanner.Test.Quality\Skyscanner.Test.Quality.csproj", "{3A0A55B3-30F2-4D69-A2D1-332E79A24401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E88E3020-C40C-45D9-9A70-FCAE42F2FC7C}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		code.ruleset = code.ruleset
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7AF312-5048-42A6-9054-683EEA28C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7AF312-5048-42A6-9054-683EEA28C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7AF312-5048-42A6-9054-683EEA28C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7AF312-5048-42A6-9054-683EEA28C713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EADB9B-A969-4B3B-9A3A-6260486DF88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EADB9B-A969-4B3B-9A3A-6260486DF88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EADB9B-A969-4B3B-9A3A-6260486DF88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EADB9B-A969-4B3B-9A3A-6260486DF88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB89E31A-4656-420B-B31E-FB5CE7E568C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB89E31A-4656-420B-B31E-FB5CE7E568C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB89E31A-4656-420B-B31E-FB5CE7E568C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB89E31A-4656-420B-B31E-FB5CE7E568C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203C0487-B8B3-4BDB-9997-6F74697BF6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203C0487-B8B3-4BDB-9997-6F74697BF6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203C0487-B8B3-4BDB-9997-6F74697BF6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203C0487-B8B3-4BDB-9997-6F74697BF6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0A55B3-30F2-4D69-A2D1-332E79A24401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0A55B3-30F2-4D69-A2D1-332E79A24401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0A55B3-30F2-4D69-A2D1-332E79A24401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0A55B3-30F2-4D69-A2D1-332E79A24401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A0A55B3-30F2-4D69-A2D1-332E79A24401} = {D5F59C0B-647F-4B10-9468-C0826E52CA5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A37FB2C-C7F7-4039-A4DF-F5C8701F76D1}
+	EndGlobalSection
+EndGlobal

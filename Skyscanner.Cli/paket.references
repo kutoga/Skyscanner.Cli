@@ -1,0 +1,11 @@
+Microsoft.CodeAnalysis.FxCopAnalyzers
+StyleCop.Analyzers
+Microsoft.Extensions.Hosting
+FluentArgs
+Serilog
+Serilog.Exceptions
+Serilog.Extensions.Logging
+Serilog.Extensions.Hosting
+Serilog.Settings.Configuration
+Serilog.Sinks.ColoredConsole
+Serilog.Formatting.Compact

@@ -1,0 +1,5 @@
+Microsoft.CodeAnalysis.FxCopAnalyzers
+StyleCop.Analyzers
+Selenium.WebDriver
+Polly
+Serilog
