@@ -12,6 +12,14 @@
 
     public static class Program
     {
+        private static bool Headless =>
+#if DEBUG
+                            false
+#else
+                            true
+#endif
+                            ;
+
         public static Task Main(string[] args)
         {
             args = new[] { "-o", "ZRH", "-d", "HKG", "-t", "2020-01-29" };
@@ -51,11 +59,7 @@
                 {
                     result = new HostBuilder()
                         .ConfigureLogging()
-                        .ConfigureFlightPriceDetection(
-#if DEBUG
-                            false
-#endif
-                        )
+                        .ConfigureFlightPriceDetection(Headless)
                         .ConfigureServices((_, services) => services.AddHostedService(s => new OneShotScraper(
                             origin,
                             destination,

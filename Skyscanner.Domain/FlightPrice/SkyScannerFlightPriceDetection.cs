@@ -147,10 +147,9 @@
                 var calendarDateButtonClass = await GetSingleClassWithPrefix(browser, "button", "BpkCalendarDate_bpk-calendar-date__").ConfigureAwait(false);
                 var script = string.Concat(new[]
                 {
+                    // TODO: simpligy to assign all variables at once
                     JSAssignArgumentToVariable(0, "day_of_month"),
                     JSAssignArgumentToVariable(1, "calendar_date_button_class"),
-                    //TODO: simpligy to assign all variables at once
-
                     "day_buttons = Array.from($('.' + calendar_date_button_class));",
                     "days = day_buttons.map(x => parseInt(x.children[0].innerText));",
                     "first_day_of_month_index = days.indexOf(1);",

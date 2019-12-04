@@ -21,6 +21,11 @@ COPY . .
 WORKDIR "/src/Skyscanner.Cli"
 RUN dotnet build "Skyscanner.Cli.csproj" -c Release -o /app
 
+FROM build AS test
+LABEL test=true
+WORKDIR /src
+RUN dotnet test -c Release
+
 FROM build AS publish
 RUN dotnet publish "Skyscanner.Cli.csproj" -c Release -o /app
 
